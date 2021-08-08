@@ -1,0 +1,50 @@
+#wrapper {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 10;
+}
+
+#parent {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 1px solid;
+    background-color: beige;
+    z-index: initial;
+}
+
+.child {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border: 1px solid;
+}
+
+#child1 {
+    left: -1px;
+    top: -40px;
+    background-color: beige;
+    border-bottom: 1px beige;
+    z-index: 10;
+}
+#child2 {
+    left: 83px;
+    top: -40px;
+    background-color: lightgray;
+    border-bottom: 1px lightgray;
+    z-index: -10;
+}
+#child3{
+    left: 167px;
+    top: -40px;
+    background-color: lightsteelblue;
+    border-bottom: 1px lightsteelblue;
+    z-index: -10;
+}
+
+#text-area {
+    width: 300px;
+    height: 150px;
+    margin: 20% auto;
+}
